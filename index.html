@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML com JS - Ebac Bancking</title>
+    <link rel="stylesheet" href="./bankebx.css" />
+    <link rel="website icon" type="png" href="images/e_eb_logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital@1&family=DM+Serif+Text:ital@0;1&family=Poppins:ital,wght@0,300;0,400;0,500;0,700;0,900;1,200;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body style="background-color: #f1f7f6;">
+    
+    <div class="container">
+        <h1 id="imglogo"><img src="images/e_eb_logo_wind.png"></h1>
+        <h2 style="color: #021b1a;">Depósitos</h2>
+        <form id="form-deposito">
+            <input type="decimal" id="valor-deposito" required placeholder="Valor" />
+            <input type="text" id="numero-conta" required placeholder="Número da conta (6 dígitos)" />
+            <button type="submit" id="btn-depositar">Depositar</button>
+        </form>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
